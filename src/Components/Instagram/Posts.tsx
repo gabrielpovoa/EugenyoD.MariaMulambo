@@ -1,10 +1,10 @@
 "use client"
 import Image from 'next/image';
 import { useState } from 'react';
-import {InstagramPost} from "@/Type/witchcraftPosts";
+import {witchcraftPosts} from "@/Type/witchcraftPosts";
 
 interface PostsProps {
-    data: InstagramPost;
+    data: witchcraftPosts;
 }
 
 export const Posts = ({data}: PostsProps) => {
