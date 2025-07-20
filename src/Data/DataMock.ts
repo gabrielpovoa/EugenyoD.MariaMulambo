@@ -1,8 +1,8 @@
 import devil from "@/../public/devilish.webp";
 import man from "@/../public/man.webp"
-import {InstagramPost} from "@/Type/witchcraftPosts";
+import {witchcraftPosts} from "@/Type/witchcraftPosts";
 
-export const mockPosts: InstagramPost[] = [
+export const mockPosts: witchcraftPosts[] = [
     {
         id: '1',
         imageUrl: man,
