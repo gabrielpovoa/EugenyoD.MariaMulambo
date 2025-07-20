@@ -77,7 +77,7 @@ export const Posts = ({data}: PostsProps) => {
             {/* Post Info */}
             <div className="p-4">
                 <p className="text-gray-200 text-sm line-clamp-2 mb-2 font-serif">
-                    {caption}
+                    {content}
                 </p>
 
             </div>
