@@ -4,5 +4,5 @@ export interface witchcraftPosts {
     id: string;
     imageUrl: StaticImageData;
     caption: string;
-    content: number;
+    content: string;
 }
