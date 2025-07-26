@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -13,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eugênyo de Maria Mulambo",
-  description: "Tarot, Cartas Ciganas, Trabalhos e atendimentos Espiritais",
+  title: "Eugênyo de Tranca Ruas",
+  description: "Tarot, Cartas Ciganas, Trabalhos e Atendimentos Espirituais",
 };
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+    <Analytics/>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

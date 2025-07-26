@@ -1,5 +1,5 @@
 import devil from "@/../public/devilish.webp";
-import man from "@/../public/man.webp"
+import man from "@/../public/tarot.jpeg"
 import {witchcraftPosts} from "@/Type/witchcraftPosts";
 
 export const mockPosts: witchcraftPosts[] = [

@@ -1,10 +1,11 @@
 import {Logo} from "@/Components/Logo/Logo";
+import {Particles} from "@/Components/ColorParticles/Particles";
 
 export const Banner = () => {
     return (
         <section
             className="relative w-full h-screen bg-cover bg-center bg-gradient-to-br from-gray-900 via-slate-800 to-black overflow-hidden"
-            style={{ backgroundImage: "url('/banner.webp')" }}
+            style={{ backgroundImage: "url('/banner.jpeg')" }}
         >
             {/* Overlay escuro */}
             <div className="absolute inset-0 bg-black/70 z-10" />
@@ -20,9 +21,9 @@ export const Banner = () => {
             {/* Título no canto inferior direito */}
             <div className="absolute bottom-10 right-6 sm:right-8 lg:right-10 z-30 max-w-md lg:max-w-lg text-right">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-white font-serif leading-tight tracking-wide">
-                    <span className="block mb-2">Maria Mulambo</span>
+                    <span className="block mb-2">Tranca Ruas</span>
                     <span className="block text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">
-                        e Exu Tranca Ruas
+                        e Maria Mulambo
                     </span>
                 </h1>
             </div>
@@ -31,9 +32,7 @@ export const Banner = () => {
             <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-purple-900/20 to-transparent z-20" />
 
             {/* Partículas decorativas */}
-            <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-purple-400 rounded-full opacity-60 animate-pulse z-25" />
-            <div className="absolute top-3/4 left-1/3 w-1 h-1 bg-purple-300 rounded-full opacity-40 animate-pulse delay-1000 z-25" />
-            <div className="absolute top-1/2 right-1/4 w-0.5 h-0.5 bg-purple-500 rounded-full opacity-50 animate-pulse delay-500 z-25" />
+           <Particles/>
 
             {/* Elementos decorativos inspirados no layout */}
             <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-25">
